@@ -13,7 +13,7 @@ stylesheet =
         pureStylesheet =
             [ attribute "rel"       "stylesheet"
             , attribute "property"  "stylesheet"
-            , attribute "href"      "http://yui.yahooapis.com/pure/0.6.0/pure-min.css"
+            , attribute "href"      "resources/pure-min.css"
             ]
         myStylesheet =
             [ attribute "rel"       "stylesheet"
