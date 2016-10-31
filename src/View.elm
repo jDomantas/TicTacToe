@@ -18,7 +18,7 @@ stylesheet =
         myStylesheet =
             [ attribute "rel"       "stylesheet"
             , attribute "property"  "stylesheet"
-            , attribute "href"      "http://localhost:8000/resources/styles.css"
+            , attribute "href"      "resources/styles.css"
             ]
     in 
         div []
