@@ -22,8 +22,12 @@ update msg model =
         (Restart, _) ->
             init
         (CellClick pos, Playing board) ->
-            placeMark board pos
-            |> doAiTurn
+            let
+                nextBoard = placeMark board pos
+            in
+                if nextBoard == Playing board
+                then model
+                else nextBoard |> doAiTurn
         _ ->
             model
 
